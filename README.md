@@ -3,7 +3,7 @@ Openwrt 固件一键检测更新/编译固件脚本！
 
 【运行脚本请保证网络能科学】【固件默认x86-64架构·不要在root账户下运行】
 
-【IP:192.168.2.1 USER:root PASSWD:password】
+【IP:192.168.2.111 USER:root PASSWD:password】
 
 1.平台是基于win10 wsl2环境的linux 当然也可以运行到其他地方Linux上，推荐Ubuntu 18 LTS x64：
     
@@ -33,7 +33,7 @@ Openwrt 固件一键检测更新/编译固件脚本！
 
 6.附录部分脚本状态图片：
 
-![img_3.png](image/img_3.png)
+![img.png](image/img.png)
 
 ![img_1.png](image/img_1.png)
 
