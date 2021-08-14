@@ -447,7 +447,7 @@ wget -P ${path}/lede/package/lean/default-settings/files https://raw.githubuserc
 echo
 #####网络配置######
 if [[ ! -d "${path}/lede/files/etc/config" ]]; then
-	sed -i 's/192.168.1.2/192.168.1.1/g' ${path}/lede/package/base-files/files/bin/config_generate
+	sed -i 's/192.168.2.111/192.168.1.1/g' ${path}/lede/package/base-files/files/bin/config_generate
 	mkdir -p ${path}/lede/files/etc/config
 	cat>${path}/lede/files/etc/config/network<<-EOF
 	config interface 'loopback'
@@ -463,7 +463,7 @@ if [[ ! -d "${path}/lede/files/etc/config" ]]; then
 		option type 'bridge'
 		option ifname 'eth0'
 		option proto 'static'
-		option ipaddr '192.168.1.2'
+		option ipaddr '192.168.2.111'
 		option netmask '255.255.255.0'
 		option ip6assign '60'
 
@@ -491,7 +491,7 @@ else
 			option type 'bridge'
 			option ifname 'eth0'
 			option proto 'static'
-			option ipaddr '192.168.1.2'
+			option ipaddr '192.168.2.111'
 			option netmask '255.255.255.0'
 			option ip6assign '60'
 
@@ -841,7 +841,7 @@ wget -P ${path}/lede/package/lean/default-settings/files https://raw.githubuserc
 echo
 #####网络配置######
 if [[ ! -d "${path}/lede/files/etc/config" ]]; then
-	sed -i 's/192.168.2.1/192.168.1.1/g' ${path}/lede/package/base-files/files/bin/config_generate
+	sed -i 's/192.168.2.111/192.168.1.1/g' ${path}/lede/package/base-files/files/bin/config_generate
 	mkdir -p ${path}/lede/files/etc/config
 	cat>${path}/lede/files/etc/config/network<<-EOF
 	config interface 'loopback'
@@ -857,7 +857,7 @@ if [[ ! -d "${path}/lede/files/etc/config" ]]; then
 		option type 'bridge'
 		option ifname 'eth0'
 		option proto 'static'
-		option ipaddr '192.168.2.1'
+		option ipaddr '192.168.2.111'
 		option netmask '255.255.255.0'
 		option ip6assign '60'
 
@@ -885,7 +885,7 @@ else
 			option type 'bridge'
 			option ifname 'eth0'
 			option proto 'static'
-			option ipaddr '192.168.2.1'
+			option ipaddr '192.168.2.111'
 			option netmask '255.255.255.0'
 			option ip6assign '60'
 
@@ -1215,7 +1215,7 @@ wget -P ${path}/openwrt/package/lean/default-settings/files https://raw.githubus
 echo
 #####网络配置######
 if [[ ! -d "${path}/openwrt/files/etc/config" ]]; then
-	sed -i 's/192.168.1.2/192.168.1.1/g' ${path}/openwrt/package/base-files/files/bin/config_generate
+	sed -i 's/192.168.2.111/192.168.1.1/g' ${path}/openwrt/package/base-files/files/bin/config_generate
 	mkdir -p ${path}/openwrt/files/etc/config
 	cat>${path}/openwrt/files/etc/config/network<<-EOF
 	config interface 'loopback'
@@ -1231,7 +1231,7 @@ if [[ ! -d "${path}/openwrt/files/etc/config" ]]; then
 		option type 'bridge'
 		option ifname 'eth0'
 		option proto 'static'
-		option ipaddr '192.168.1.2'
+		option ipaddr '192.168.2.111'
 		option netmask '255.255.255.0'
 		option ip6assign '60'
 
@@ -1259,7 +1259,7 @@ else
 			option type 'bridge'
 			option ifname 'eth0'
 			option proto 'static'
-			option ipaddr '192.168.1.2'
+			option ipaddr '192.168.2.111'
 			option netmask '255.255.255.0'
 			option ip6assign '60'
 
@@ -1610,7 +1610,7 @@ wget -P ${path}/openwrt/package/lean/default-settings/files https://raw.githubus
 echo
 #####网络配置######
 if [[ ! -d "${path}/openwrt/files/etc/config" ]]; then
-	sed -i 's/192.168.1.2/192.168.1.1/g' ${path}/openwrt/package/base-files/files/bin/config_generate
+	sed -i 's/192.168.2.111/192.168.1.1/g' ${path}/openwrt/package/base-files/files/bin/config_generate
 	mkdir -p ${path}/openwrt/files/etc/config
 	cat>${path}/openwrt/files/etc/config/network<<-EOF
 	config interface 'loopback'
@@ -1626,7 +1626,7 @@ if [[ ! -d "${path}/openwrt/files/etc/config" ]]; then
 		option type 'bridge'
 		option ifname 'eth0'
 		option proto 'static'
-		option ipaddr '192.168.1.2'
+		option ipaddr '192.168.2.111'
 		option netmask '255.255.255.0'
 		option ip6assign '60'
 
@@ -1654,7 +1654,7 @@ else
 			option type 'bridge'
 			option ifname 'eth0'
 			option proto 'static'
-			option ipaddr '192.168.1.2'
+			option ipaddr '192.168.2.111'
 			option netmask '255.255.255.0'
 			option ip6assign '60'
 
