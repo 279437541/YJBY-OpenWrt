@@ -27,7 +27,7 @@ Openwrt 固件一键检测更新/编译固件脚本！
 
 4.一键脚本运行：
 
-    cd && bash -c "$(wget -O- https://git.io/DHLlang)"
+    cd && bash -c "$(wget -O- https://git.io/DHL)"
 
 5.若有问题，仔细解决
 
